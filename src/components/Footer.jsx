@@ -11,7 +11,7 @@ const Footer = () => {
 
      <div className='col-lg-4'>
      <Link to="/" className='text-primary' style={{textDecoration:"none",fontSize:'30px'}}>
-            <i class="fa-solid fa-headphones"></i>{" "}
+            <i className="fa-solid fa-headphones"></i>{" "}
             Melodify
             </Link>
       <p>Designed and built with all the love in the world by the Luminar team with the help of our contributers</p>
@@ -21,9 +21,9 @@ const Footer = () => {
       </div>
       <div className='col-lg-2'>
         <p className='fs-3'>Links</p>
-        <p>Landing page</p>
-        <p>Home page</p>
-        <p>History page</p>
+        <Link to={'/'} className='text-primary' style={{textDecoration:'none'}}>Landing page</Link> <br />
+        <Link to={'/home'} className='text-primary' style={{textDecoration:'none'}}>Home page</Link> <br />
+        <Link to={'/history'} className='text-primary' style={{textDecoration:'none'}}>History page</Link> <br />
       </div>
       <div className='col-lg-2'>
       <p className='fs-3'>Guides</p>
@@ -40,16 +40,16 @@ const Footer = () => {
           aria-describedby="basic-addon2"
         />
         <Button variant="secondary" id="button-addon2">
-        <i class="fa-solid fa-arrow-right"></i>
+        <i className="fa-solid fa-arrow-right"></i>
         </Button>
       </InputGroup>
       <div className='mt-4' style={{display:'flex',justifyContent:'space-between',fontSize:'25px'}}>
-      <i class="fa-brands fa-twitter"></i>
-      <i class="fa-brands fa-instagram"></i>
-      <i class="fa-brands fa-facebook"></i>
-      <i class="fa-brands fa-linkedin"></i>
-      <i class="fa-brands fa-github"></i>
-      <i class="fa-solid fa-phone"></i>
+      <i className="fa-brands fa-twitter"></i>
+      <i className="fa-brands fa-instagram"></i>
+      <i className="fa-brands fa-facebook"></i>
+      <i className="fa-brands fa-linkedin"></i>
+      <i className="fa-brands fa-github"></i>
+      <i className="fa-solid fa-phone"></i>
       </div>
       </div>
 

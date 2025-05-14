@@ -10,7 +10,7 @@ const Header = () => {
         <Container>
           <Navbar.Brand  className='fw-bolder '>
             <Link to="/" className='text-primary' style={{textDecoration:"none",fontSize:'30px'}}>
-            <i class="fa-solid fa-headphones"></i>{" "}
+            <i className="fa-solid fa-headphones"></i>{" "}
             Melodify
             </Link>
           

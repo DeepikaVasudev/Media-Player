@@ -1,4 +1,4 @@
-import React from 'react'
+
 import { Link } from 'react-router-dom'
 import musicGif from '../assets/musicGif.gif'
 import { Card } from 'react-bootstrap'
@@ -7,12 +7,13 @@ import manage from '../assets/managing.jpg'
 import time from '../assets/time.webp'
 
 const Landing = () => {
+
   return (
     <div className='container'>
   
       <div className='row align-items-center'>
         <div className='col-lg-5'>
-          <h1 className='text-primary'>Welcome to <span className='text-light fw-bold'> Melodify </span></h1>
+          <h1 className='text-primary'>Welcome to <span className='text-light fw-bold'> Spotify </span></h1>
           <p className='text-primary' style={{textAlign:'justify',fontSize:'18px'}}>Melodify will allow user to add or remove their uploaded videos from youTube and also allow them to arrange it in different categories by drag and drop. User can also have the provision to manage their watch history as well. What are you waiting for, let starts exploring our site!!!</p> <br />
           <Link to={"/home"} className='btn btn-light text-dark'>Get Started</Link>
 
@@ -81,7 +82,7 @@ const Landing = () => {
         </div>
         <div className='col-lg-1'></div>
         <div className='col-lg-6'>
-        <iframe width="550" height="350" src="https://www.youtube.com/embed/LkKChCQnjB4?si=5uSyBqsTZvFOj9B1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        <iframe width="600" height="350" src="https://www.youtube.com/embed/LkKChCQnjB4?si=5uSyBqsTZvFOj9B1" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerPolicy="strict-origin-when-cross-origin" allowFullScreen></iframe>
         </div>
       </div>
       
